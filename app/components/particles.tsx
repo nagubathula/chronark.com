@@ -12,8 +12,8 @@ interface ParticlesProps {
 }
 
 export default function Particles({
-	className = "",
-	quantity = 30,
+	className = "shadow-lg shadow-white",
+	quantity = 5,
 	staticity = 50,
 	ease = 50,
 	refresh = false,
